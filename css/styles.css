@@ -1,0 +1,99 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #b8c5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #FFF;
+    color: #333;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+    color: #555;
+}
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-destaque figure {
+    display: inline-block;
+}
+
+.img-destaque img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.img-destaque img:hover {
+    transform: scale(1.05);
+}
+
+.img-destaque figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.biografia-container, .curiosidades-container, .historia-container {
+    border-top: 1px dashed #e2df85;
+    border-bottom: 1px dashed #e2df85;
+}
+
+.impacto-cultural-container, .premios-container, .videos-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #e2df85;
+}
+
+.impacto-cultural-container {
+	padding: 25px 0;
+    margin: 25px 0;
+}
+
+.frase-container {
+    background-color: #faf7a8;
+    padding: 5px;
+    text-align: center;
+}
+
+.frase-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
+
+.curiosidades-container li {
+    margin: 10px 0;
+}
+
+.linha-do-tempo-container li {
+	margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .img-destaque img {
+      width: 80%;
+    }
+  }
